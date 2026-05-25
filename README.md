@@ -45,10 +45,10 @@ ___
   ```SQL
   select * from new_car_dataset2 where "price ($)">400000;
  ```
-```SQL
-SELECT * FROM new_car_dataset2 WHERE DEALER_REGION = 'AUSTIN';
-```
 
+```SQL
+ SELECT * FROM new_car_dataset2 WHERE DEALER_REGION = 'AUSTIN';
+ ```
 
 
 
