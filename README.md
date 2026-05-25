@@ -16,10 +16,6 @@ __In this project, I worked with a car sales dataset to analyze sales performanc
 |C_CND_000002|	1/2/2022|	Gia|	Male|	1480000|	C & M Motors Inc|	Dodge| Durango|	DoubleÃ‚Â Overhead Camshaft|	Auto|Black|	19000|	60504-7114|	SUV|	6848189|	Aurora|
 |C_CND_000003|	1/2/2022| Gianna|	Male|	1035000|	Capitol KIA|	Cadillac|	Eldorado|	Overhead Camshaft|	Manual|	Red|	31500|	38701-8047|	Passenger|	7298798|	Greenville|
 
-
-
-
-
 ## TOOLS USED
 ###  Excel Pivot Table:
 + _For summarizing the car sales data_
@@ -46,7 +42,13 @@ ___
 + _For exploring the structure and content of the data_
 + _For displaying the top and bottom rows of the dataset_
 
+  ```SQL
+  select * from new_car_dataset2 where "price ($)">400000;
+ ```
 
+```SQL
+SELECT * FROM new_car_dataset2 WHERE DEALER_REGION = 'AUSTIN';
+```
 
 
 
